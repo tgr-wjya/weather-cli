@@ -60,5 +60,5 @@ console.log(`Temperature: ${data.main.temp.toFixed(2)}°C`);
 console.log(`Feels Like: ${data.main.feels_like.toFixed(2)}°C`);
 console.log(`Condition: ${data.weather[0].main}`);
 console.log(`Humidity: ${data.main.humidity}%`);
-console.log(`Wind Speed: ${data.wind.speed} km/h`);
+console.log(`Wind Speed: ${data.wind.speed} m/s`);
 console.log("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
